@@ -76,6 +76,7 @@ html {
 
 }
 .l-logo{
+    all: revert !important;
     font-size: 22px !important;
     color: #024C60;
     font-family: "Alexandria", sans-serif;
@@ -140,7 +141,7 @@ transition-duration: 0.2s;
 .mobile-nav{
     display: none;
     position: absolute;
-    top: 100%;
+    top: 130%;
     left: 0;
     width: 100%;
     background-color: #000000b6;
@@ -865,10 +866,11 @@ border-bottom: 0 !important;
 
     }
     label{
-        width: 30% !important;
+        width: 35% !important;
         font-size: 11px !important;
-        margin-left: 10px !important;
+        margin-left: -10px !important;
         margin-right: 0 !important;
+        line-height: 1.5 !important;
     }
     .l-check{
         font-size: 12px !important;
@@ -884,6 +886,11 @@ border-bottom: 0 !important;
     .custom-select-input,.search-input, .custom-select-dropdown{
         width: 92.5% !important;
         font-size: 10px;
+        margin-left: 0;
+    }
+
+    .country-select{
+        width: 92.5% !important;
         margin-left: 0;
     }
 
@@ -933,10 +940,12 @@ border-bottom: 0 !important;
     }
 
     label{
-        width: 30% !important;
+        width: 33% !important;
         font-size: 11px !important;
         margin-left: 5px !important;
-        margin-right: 20px !important;
+        margin-right: 10px !important;
+        line-height: 1.5 !important;
+
     }
 
     .l-check{
@@ -953,6 +962,11 @@ border-bottom: 0 !important;
     .custom-select-input,.search-input, .custom-select-dropdown{
         width: 92.5% !important;
         font-size: 10px;
+        margin-left: 0;
+    }
+
+    .country-select{
+        width: 92.5% !important;
         margin-left: 0;
     }
 
