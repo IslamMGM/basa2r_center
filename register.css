@@ -895,7 +895,7 @@ border-bottom: 0 !important;
     }
 
     .country-select{
-        width: 92.5% !important;
+        width: 91% !important;
         margin-left: 0;
     }
 
@@ -967,7 +967,7 @@ border-bottom: 0 !important;
     .custom-select-input,.search-input, .custom-select-dropdown{
         width: 92.5% !important;
         font-size: 10px;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .country-select{
