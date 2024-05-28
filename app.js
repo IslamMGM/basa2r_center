@@ -120,3 +120,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// change the color of header after scrolling //
+
+// const header = document.querySelector(".main-header");
+// const scrollThreshold = 385;
+
+// window.addEventListener("scroll", function () {
+//   if (window.scrollY >= scrollThreshold) {
+//     header.classList.add("active");
+//   } else {
+//     header.classList.remove("active");
+//   }
+// });

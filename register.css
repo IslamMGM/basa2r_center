@@ -27,9 +27,27 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 65px;
     position: relative;
+    
     }
+
+.main-header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s;
+    padding: 5px 0 10px 0;
+    background-color:  #46dfe1;
+
+}
+
+/* .active {
+    background-color: #b7b7b7 !important;
+    transition: 0.5s !important;
+  } */
 
 .cover-img {
     background-image: url(img/cover2.jpg) !important;
@@ -39,25 +57,46 @@ html {
     background: no-repeat center;
     background-size: cover;
     z-index: -1;
-    margin-top: -115px;
+    margin-top: 0px;
     box-shadow: 0 3px 16px #0000002f;
-
+ 
 }
 
 .navbar{
     display: flex;
     align-items: center;
+    
 }
 
+.logo-cont{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+
+}
+.l-logo{
+    font-size: 22px !important;
+    color: #024C60;
+    font-family: "Alexandria", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
 .logo{
-     cursor: pointer;
-    height: 70px;
+    cursor: pointer;
+    height: 60px;
+    width: 40px;
+    margin-top: -10px;
+
 }
 
 .links{
     list-style: none;
     display: flex;
     flex-direction: row-reverse;
+    
   }
 
 .nav-links{
@@ -66,7 +105,7 @@ html {
     align-items: center;
     position: relative;
     text-decoration: none;
-    padding: 28px 15px ;
+    padding: 29px 15px ;
     font-size: 20px;
     color: black;
     font-family: "Alexandria", sans-serif;
@@ -160,7 +199,7 @@ transition-duration: 0.2s;
 
     .main-header{
         height: 90px;
-        background-color: #114d6d2d;
+        background-color: #46dfe1;
     }
 
     .logo{
@@ -170,7 +209,7 @@ transition-duration: 0.2s;
     .cover-img {
         padding-top: 0px;
         padding-bottom: 15rem;
-        margin-top: 0;
+        margin-top: 85px;
     }
     
 }
@@ -360,6 +399,9 @@ form {
     width: 100% !important;
     margin-bottom: 30px;
 }
+
+
+
 
 .agree input:hover{
     box-shadow: 0 3px 16px #024d6d4a;
@@ -830,7 +872,7 @@ border-bottom: 0 !important;
     }
     .l-check{
         font-size: 12px !important;
-        
+        margin-right: 15px !important;
      }
 
      .check{
@@ -898,7 +940,7 @@ border-bottom: 0 !important;
     }
 
     .l-check{
-        font-size: 12px !important;
+        font-size: 14px !important;
         font-weight: 700;
     }
     .check{
