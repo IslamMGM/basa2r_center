@@ -45,9 +45,13 @@
     <div class="cover-img"></div>
     <div class="form-container">
       <div class="container">
-        <h2 class="st-data">تسجيل بيانات الطالب</h2>
+        <div class="set_h_right">
+          <h2 class="st-data">تسجيل بيانات الطالب</h2>
+        </div>
         <form class="form" action="">
-          <h3 class="head3">بيانات الطالب</h3>
+          <div class="set_h_right">
+            <h3 class="head3">بيانات الطالب</h3>
+          </div>
           <hr />
           <div class="flex-p1">
             <div class="flex-c1">
@@ -56,7 +60,7 @@
                 class="inpt"
                 id="name"
                 type="text"
-                placeholder="أكتب اسمك"
+                placeholder="اُكتب اسمك"
                 required
                 name=""
               />
@@ -67,7 +71,7 @@
                 class="inpt"
                 id="phone-num"
                 type="tel"
-                placeholder="أكتب رقم هاتفك"
+                placeholder="اُكتب رقم هاتفك"
                 required
                 name=""
               />
@@ -80,7 +84,7 @@
                 class="inpt"
                 id="email"
                 type="email"
-                placeholder="أكتب عنوانك  بريدك الإلكترون"
+                placeholder="اُكتب عنوان بريدك الإلكتروني"
                 required
                 name=""
               />
@@ -91,7 +95,7 @@
                 class="inpt"
                 id="jop"
                 type="text"
-                placeholder="أكتب الوظيفة"
+                placeholder="اُكتب الوظيفة"
                 required
                 name=""
               />
@@ -108,7 +112,7 @@
                 class="inpt"
                 id="age"
                 type="number"
-                placeholder="أكتب عمرك"
+                placeholder="اُكتب عمرك"
                 required
                 name=""
               />
@@ -121,7 +125,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div class="custom-select-dropdown">
@@ -137,7 +141,7 @@
                 <input
                   type="text"
                   class="search-input"
-                  placeholder="Select or type"
+                  placeholder="إختر أو إبحث عن دولة"
                 />
                 <div class="country-select" size="10">
                   <option value="AF">أفغانستان</option>
@@ -537,7 +541,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div class="custom-select-dropdown" id="level" required name="">
@@ -565,7 +569,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div class="custom-select-dropdown" id="hevz" required name="">
@@ -599,7 +603,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div class="custom-select-dropdown" id="how" required name="">
@@ -618,7 +622,9 @@
               <input id="add" class="boxdate" type="date" required name="" />
             </div>
           </div>
-          <h3 class="head3">تفاصيل الخدمة المطلوبة</h3>
+          <div class="set_h_right">
+            <h3 class="head3">تفاصيل الخدمة المطلوبة</h3>
+          </div>
           <hr />
           <div class="flex-p1">
             <div class="flex-c1">
@@ -627,7 +633,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div
@@ -650,7 +656,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div
@@ -691,7 +697,7 @@
                 <input
                   type="text"
                   class="custom-select-input"
-                  placeholder="Select"
+                  placeholder="إختر"
                   readonly
                 />
                 <div
@@ -713,37 +719,42 @@
             </div>
             <div class="flex-c1 hide"></div>
           </div>
-          <h3 class="head3">كود ترويجي / قسيمة خصم</h3>
+          <div class="set_h_right">
+            <h3 class="head3">كود ترويجي / قسيمة خصم</h3>
+          </div>
           <hr />
           <div class="flex-p2">
-            <div class="flex-c1 co-vo">
-              <label for="code">هل لديك كود ترويجي / قسيمة خصم؟</label>
-              <div class="custom-select-container c-s-cont box">
-                <input
-                  type="text"
-                  class="custom-select-input c-s-inp"
-                  id="code"
-                  placeholder="Select"
-                  readonly
-                />
-                <div
-                  class="custom-select-dropdown c-s-drop"
-                  type="text"
-                  required
-                  name=""
-                >
-                  <option value="promo">كود ترويجي</option>
-                  <option value="voucher">قسيمة خصم</option>
+            <div class="flex-p1">
+              <div class="flex-c1 co-vo">
+                <label for="code">هل لديك كود ترويجي / قسيمة خصم؟</label>
+                <div class="custom-select-container c-s-cont box">
+                  <input
+                    type="text"
+                    class="custom-select-input c-s-inp"
+                    id="code"
+                    placeholder="إختر"
+                    readonly
+                  />
+                  <div
+                    class="custom-select-dropdown c-s-drop"
+                    type="text"
+                    required
+                    name=""
+                  >
+                    <option value="promo">كود ترويجي</option>
+                    <option value="voucher">قسيمة خصم</option>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- <div class="flex-c1 hide"></div> -->
             <div class="flex-c1 code" id="promo-code">
               <label for="code-n">أدخل الكود الترويجي</label>
               <input
                 class="inpt"
                 id="code-n"
                 type="text"
-                placeholder="Type the code"
+                placeholder="اُكتب الكود"
                 required
                 name=""
               />
@@ -754,7 +765,7 @@
                 class="inpt"
                 id="voucher-n"
                 type="text"
-                placeholder="Type the voucher number"
+                placeholder="اُكتب رقم قسيمة الشراء"
                 required
                 name=""
               />
@@ -767,7 +778,7 @@
               أسعدنا كثيرًا رغبتكم بالالتحاق بحلقات بصائر وسيسعى كل فريقنا
               لسعادتكم ورضاكم عن الخدمة المقدمة إن شاء الله
             </p>
-            <h3 class="head3">طرق سداد الاشتراك الشهري:-</h3>
+            <h3 class="head3">طرق سداد الاشتراك الشهري</h3>
             <hr />
             <p class="para2">
               الدفع المباشر عن طريق التواجد بأحد فروعنا السداد الإلكتروني من
@@ -781,7 +792,9 @@
               <input class="check" type="checkbox" />
             </div>
           </div>
-          <h3 class="head3">الشروط والأحكام</h3>
+          <div class="set_h_right">
+            <h3 class="head3">الشروط والأحكام</h3>
+          </div>
           <hr />
           <div class="terms">
             <img src="img/terms.png" alt="" />
