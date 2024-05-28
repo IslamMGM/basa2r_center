@@ -604,10 +604,10 @@ border-bottom: 0 !important;
     margin-left: 23%;
     }
 
-    .custom-select-input:focus {
+    /* .custom-select-input:focus {
         border-radius: 5px 5px 0 0 !important;
         border-bottom: 0 !important;
-        }
+        } */
 
 .inpt{
      font-size: 13px;
@@ -620,8 +620,8 @@ border-bottom: 0 !important;
 }
 
   .custom-select-dropdown {
-    width: 72% !important;
-    margin-left: 24%;
+    width: 73% !important;
+    margin-left: 23% !important;
 
     position: absolute;
     width: 100%;
@@ -889,9 +889,9 @@ border-bottom: 0 !important;
         width: 72% !important;
     }
     .custom-select-input,.search-input, .custom-select-dropdown{
-        width: 92.5% !important;
+        width: 91% !important;
         font-size: 10px;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .country-select{
