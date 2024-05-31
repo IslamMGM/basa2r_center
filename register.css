@@ -889,7 +889,7 @@ input[type=number]::-webkit-outer-spin-button {
         top: -3px;
     }
     .flex-c1>input{
-        width: 71.5% !important;
+        width: 71.3% !important;
     }
     .custom-select-input,.search-input, .custom-select-dropdown{
         width: 91.3% !important;
@@ -898,7 +898,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .country-select{
-        width: 91% !important;
+        width: 91.3% !important;
         margin-left: 0;
     }
 
