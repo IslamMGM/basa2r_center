@@ -76,7 +76,7 @@ html {
     color: #024C60;
     font-family: "Alexandria", sans-serif;
     font-weight: 600;
-    cursor: pointer !important;
+    cursor: pointer;
 }
 
 
@@ -694,7 +694,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .footer {
     background-color: #191919;
-    padding: 60px 0 0 0;
+    padding: 40px 0 0;
   }
 
   @media (max-width: 767px) {
@@ -705,9 +705,9 @@ input[type=number]::-webkit-outer-spin-button {
 
   .footer .container {
     display: grid;
-    direction: rtl;
     grid-template-columns: repeat(auto-fill, minmax(310px , 1fr));
     gap: 40px;
+    direction: rtl;
   }
 
   @media (min-width:767px) and (max-width:1080px){
@@ -720,16 +720,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 .sec1{
     direction: rtl;
-    margin-bottom: 25px;
- }
+    margin: 50px 0;
 
-.sec1:nth-of-type(2){
-    margin-right: 60px;
-}
-
-
-.h-contact{
-    text-align: right;    
 }
 
 .footer-h3{
@@ -803,7 +795,6 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-     
 }
 .footer-links li{
     list-style: none;
@@ -899,7 +890,7 @@ input[type=number]::-webkit-outer-spin-button {
         top: -3px;
     }
     .flex-c1>input{
-        width: 71.3% !important;
+        width: 71.5% !important;
     }
     .custom-select-input,.search-input, .custom-select-dropdown{
         width: 91.3% !important;
@@ -908,7 +899,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .country-select{
-        width: 91.3% !important;
+        width: 91% !important;
         margin-left: 0;
     }
 
