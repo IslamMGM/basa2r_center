@@ -705,6 +705,7 @@ input[type=number]::-webkit-outer-spin-button {
 
   .footer .container {
     display: grid;
+    direction: rtl;
     grid-template-columns: repeat(auto-fill, minmax(310px , 1fr));
     gap: 40px;
   }
