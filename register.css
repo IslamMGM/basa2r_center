@@ -974,7 +974,16 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 12px;
     }
 }
-
+@media (min-width:767px) and (max-width:900px){
+    .flex-p2 {
+        width: 48.9% !important;    
+    }
+}
+@media (min-width:900px) and (max-width:1150px){
+    .flex-p2 {
+        width: 49% !important;    
+    }
+}
 @media (max-width:1150px) and (min-width:767px){
      .st-data{
         font-size: 1em;
@@ -988,11 +997,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .flex-p1{
-        gap: 50px;
+        gap: 15px;
     }
-    .flex-p2 {
-        width: 47%;    
-    }
+
 
     label{
         width: 33% !important;
