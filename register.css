@@ -976,12 +976,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media (min-width:767px) and (max-width:900px){
     .flex-p2 {
-        width: 48.9% !important;    
+        width: 48.95% !important;    
     }
 }
 @media (min-width:900px) and (max-width:1150px){
     .flex-p2 {
-        width: 49% !important;    
+        width: 49.28% !important;    
     }
 }
 @media (max-width:1150px) and (min-width:767px){
