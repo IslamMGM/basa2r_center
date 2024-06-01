@@ -40,7 +40,7 @@ html {
     z-index: 2;
     transition: 0.5s;
     padding: 5px 0 10px 0;
-    background-color:  #46dfe1;
+    background-color:  #c0cfd2;
 
 }
 
@@ -354,7 +354,9 @@ form {
     border-radius: 5px;
     background-color: #024d6d19;
   }
-
+.hide{
+    v
+}
 
 .terms img{
     width: 100%;
@@ -970,7 +972,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media (min-width:1150px) and (max-width:1400px){
     .special-margin{
-        margin-right: -50px;
+        padding-right: -50px;
     }
     .flex-c1 label{
         font-size: 12px;
