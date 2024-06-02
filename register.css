@@ -695,6 +695,7 @@ input[type=number]::-webkit-outer-spin-button {
 .footer {
     background-color: #191919;
     padding: 40px 0 0;
+    
   }
 
   @media (max-width: 767px) {
@@ -713,7 +714,11 @@ input[type=number]::-webkit-outer-spin-button {
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: right;
+        
     }
+    .footer-links li a:hover{
+         padding-right: 0 !important;
+      }
     .sec1:nth-of-type(1){
         margin-bottom: 140px;
      }
@@ -828,6 +833,8 @@ input[type=number]::-webkit-outer-spin-button {
     border-bottom: 2px solid #444;
     padding: 10px 0 15px 10px;
     transition-duration: 0.3s;
+    border-radius: 5px;
+
 }
 .footer-links li a::before{
     content: "\f30a";
@@ -840,7 +847,6 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #313131;
     padding-right: 10px;
     color: white;
-    border-radius: 5px;
 }
 
 .sec1 .line{
